@@ -5,6 +5,9 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
+function greeting(name){
+  return "Hello, " + name
+}
 //Code here
 
 //////////////////PROBLEM 2////////////////////
@@ -12,21 +15,23 @@
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+let newGreeting = function(name){
+  return "Hello, " + name
+}//Code Here
 
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+function finalGreeting name => "Hello, " + name //Code Here
 
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries = ["apples", "milk", "eggs", "bread"]//Code Here
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
