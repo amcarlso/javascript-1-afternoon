@@ -7,7 +7,7 @@
 
 function greeting(name){
   return `Hello, ${name}`
-};
+}
 //Code here
 
 //////////////////PROBLEM 2////////////////////
@@ -57,7 +57,8 @@ let dog = {
   name: 'Jimmy',
   color: 'Blue',
   age: 10,
-  goodBoy: true}//Code Here
+  goodBoy: true
+}//Code Here
 
 // //...access the dog's name from the object and assign it to a
 // //variable called devMountainClassPet.
@@ -190,4 +191,4 @@ let innerFn = outerFn()//Code Here
 
 //Now invoke innerFn and save the result to a variable called finalResult.
 
-var finalResult = innerFn()//Code Here
+let finalResult = innerFn()//Code Here
